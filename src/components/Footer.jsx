@@ -2,7 +2,7 @@ import { FaInstagram, FaYoutube, FaXTwitter, FaTiktok } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full min-h-[420px] sm:h-[60vh] md:h-[60vh] bg-black overflow-hidden flex flex-col justify-between">
+    <footer className="relative w-full min-h-[420px] sm:h-[60vh] bg-black overflow-hidden flex flex-col justify-between">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <img
@@ -20,7 +20,7 @@ export default function Footer() {
         <img
           src="/logo.avif"
           alt="Blok"
-          className="w-24 sm:w-28 md:w-32 mb-4"
+          className="w-24 sm:w-24 md:w-28 mb-4"
           draggable={false}
         />
 
@@ -31,7 +31,7 @@ export default function Footer() {
         <a
           href="#"
           className="px-6 sm:px-8 py-3 rounded-2xl bg-white text-black text-base md:text-lg font-semibold
-            shadow-[0_0_16px_2px_rgba(255,255,255,0.8)] 
+            shadow-[0_0_16px_2px_rgba(255,255,255,0.8)]
             hover:shadow-[0_0_32px_8px_rgba(255,255,255,1)]
             hover:bg-white transition
             focus:outline-none focus:ring-2 focus:ring-white
