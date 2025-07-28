@@ -15,7 +15,7 @@ export default function TimeSlider() {
   const loopedWords = [...words, ...words];
 
   return (
-    <div className="flex justify-center items-center h-screen bg-black text-white text-4xl md:text-6xl font-semibold">
+    <div className="flex justify-center items-center h-screen sm:h-[60vh] md:h-[60vh] bg-black text-white text-4xl md:text-6xl ">
       <div className="flex gap-6 items-center">
         <span className="whitespace-nowrap leading-[1.2em]">Time</span>
 

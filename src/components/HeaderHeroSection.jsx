@@ -184,11 +184,14 @@ export default function HeaderHeroSection() {
           </div>
 
           {/* Headline */}
-          <h2 className="text-5xl md:text-5xl drop-shadow mb-5 tracking-tight custom-gradient-heading">
+          <h2
+            className="font-extrabold drop-shadow mb-5 tracking-tight custom-gradient-heading
+  text-2xl sm:text-3xl md:text-5xl"
+          >
             Set Your Mind Free
           </h2>
 
-          <p className="text-lg md:text-2xl text-[#ffffff7f] mb-10 ">
+          <p className="text-base sm:text-lg md:text-2xl text-[#ffffff7f] mb-10">
             The Physical Solution to Digital Distractions.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5">

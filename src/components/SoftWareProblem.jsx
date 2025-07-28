@@ -6,13 +6,13 @@ export default function SoftwareProblem() {
         border-t border-[#212121]
         bg-black
         px-4 md:px-0
+        py-12 md:py-24
       "
-      style={{ height: "100vh" }}
     >
       <div className="max-w-6xl w-full mx-auto flex flex-col md:flex-row items-center md:items-center justify-between gap-12 md:gap-20">
         {/* LEFT: Heading & Paragraph */}
         <div className="w-full md:w-1/2 flex flex-col justify-center">
-          <h2 className="text-2xl md:text-5xl  text-white mb-5">
+          <h2 className="text-2xl md:text-5xl text-white mb-5">
             Software solutions don't work.
           </h2>
           <p className="text-white text-base md:text-lg leading-relaxed">
@@ -24,7 +24,7 @@ export default function SoftwareProblem() {
         </div>
         {/* RIGHT: Two Images Side by Side */}
         <div className="w-full md:w-1/2 flex items-center justify-center gap-6">
-          <div className="w-1/2 max-w-[180px] md:max-w-[220px] aspect-[3/5]  flex items-center justify-center">
+          <div className="w-1/2 max-w-[180px] md:max-w-[220px] aspect-[3/5] flex items-center justify-center">
             <img
               src="/soft-solution1.webp"
               alt="Phone ignore screen for limit"

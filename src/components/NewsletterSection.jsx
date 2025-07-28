@@ -10,7 +10,7 @@ export default function NewsletterSection() {
   };
 
   return (
-    <section className="w-full h-[100vh] bg-black py-10 flex items-center justify-center px-1">
+    <section className="w-full h-[100vh] md:h-[50vh] bg-black py-10 flex items-center justify-center px-1">
       <div className="w-full max-w-xl bg-[#121212] rounded-2xl p-4 md:p-8 flex flex-col items-center shadow-lg">
         <h2 className="text-xl md:text-2xl text-white text-center mb-1">
           Follow along
