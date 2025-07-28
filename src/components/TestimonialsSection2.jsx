@@ -33,7 +33,7 @@ export default function TestimonialsSection2() {
       username: "@smithers",
       image: "/user1.png",
       content:
-        "Got myself a Blok few (@teamblok), so, as expected here breath from time a breath of fresh air.",
+        "Got myself a Blok few (@teamblok), so, as expected here breath from time a breath of fresh air.Working out so far I think the physical device is turning off & barely work. Even on that hangi it off physically removed and the background. As always mentioned.vvWorking out so far I think the physical device is turning off & barely work. Even on that hangi it off physically removed and the background. As always mentioned.",
     },
     {
       id: 5,
@@ -51,13 +51,21 @@ export default function TestimonialsSection2() {
       content:
         "I got blok'd and it was @ Love writing @somewhere all the time at some place 🙂",
     },
+    {
+      id: 7,
+      userName: "Chris",
+      username: "@chrisname",
+      image: "/user1.png",
+      content:
+        "I got blok'd and it was @ Love writing @somewhere all the time at some place 🙂",
+    },
   ];
 
   // Split testimonials into 3 columns of 2 each
   const columns = [
     testimonials.slice(0, 2),
     testimonials.slice(2, 4),
-    testimonials.slice(4, 6),
+    testimonials.slice(4, 7),
   ];
 
   return (

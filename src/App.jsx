@@ -2,9 +2,12 @@ import AppPreviewSection from "./components/AppPreviewSection";
 import AppVideoSection from "./components/AppVideoSection";
 import BlokTimeSection from "./components/BlokTimeSection";
 import BrandSliderSection from "./components/BrandSliderSection";
+import FAQSection from "./components/FAQSection";
+import Footer from "./components/Footer";
 import GrowingMovementSection from "./components/GrowingMovementSection";
 import HeaderHeroSection from "./components/HeaderHeroSection";
 import IntroducingBlokSection from "./components/IntroducingBlokSection";
+import NewsletterSection from "./components/NewsletterSection";
 import ProblemSection from "./components/ProblemSection";
 import QuoteTestimonialSection from "./components/QuoteTestimonialSection";
 import SocialMediaSection from "./components/SocialMediaSection";
@@ -30,6 +33,9 @@ function App() {
       <BlokTimeSection />
       <StickyTimeSection />
       <TestimonialsSection2 />
+      <NewsletterSection />
+      <FAQSection />
+      <Footer />
     </div>
   );
 }

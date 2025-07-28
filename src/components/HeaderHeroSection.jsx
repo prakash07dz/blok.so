@@ -101,7 +101,7 @@ export default function HeaderHeroSection() {
         </nav>
         {/* Mobile Menu Dropdown */}
         <div
-          className={`md:hidden fixed top-16 left-0 right-0 bg-black/80 py-6 px-8 z-30 transition-transform ${
+          className={`md:hidden fixed top-16 left-0 right-0 bg-black/80 py-6 px-8 z-30 transition-transform duration-700 ease-in-out ${
             open ? "translate-y-0" : "-translate-y-[200%]"
           }`}
         >
@@ -140,7 +140,7 @@ export default function HeaderHeroSection() {
           >
             <input
               type="email"
-              placeholder="Your email"
+              placeholder="Email"
               className="px-3 py-2 rounded bg-white/80 text-black placeholder-gray-400 focus:outline-none w-full"
             />
             <button
