@@ -187,7 +187,7 @@ export default function HeaderHeroSection() {
         className="relative flex flex-col items-center justify-center h-screen w-full z-20"
         style={{ minHeight: "100vh" }}
       >
-        <div className="text-center px-4 mt-15 md:mt-20 max-w-xl mx-auto">
+        <div className="text-center px-4 mt-8 md:mt-20 max-w-xl mx-auto">
           {/* Static Rating Section */}
 
           <div className="flex flex-row items-center justify-center mb-8 gap-2 sm:gap-2 md:gap-4">
@@ -225,7 +225,7 @@ export default function HeaderHeroSection() {
           </div>
 
           {/* Headline */}
-          <h2 className="font-extrabold drop-shadow mb-5 tracking-tight custom-gradient-heading text-3xl sm:text-4xl md:text-6xl">
+          <h2 className="font-extrabold drop-shadow mb-5  custom-gradient-heading text-3xl tracking-wide sm:text-4xl md:text-6xl">
             Set Your Mind Free
           </h2>
 
