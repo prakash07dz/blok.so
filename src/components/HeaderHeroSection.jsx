@@ -245,7 +245,7 @@ export default function HeaderHeroSection() {
       hover:bg-black/95 shadow transition
     "
             >
-              <FaApple size={18} className="sm:size-24" />
+              <FaApple size={18} />
               <span className="hidden xs:inline">Download App</span>
               <span className="xs:hidden sm:inline">Download</span>
             </a>
