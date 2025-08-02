@@ -19,7 +19,7 @@ export default function ProblemSection() {
 
   return (
     <section className="w-full bg-black px-4 py-16 flex flex-col items-center">
-      <h2 className="text-2xl md:text-4xl font-bold text-white text-center mb-4">
+      <h2 className="text-2xl md:text-4xl  text-white text-center mb-4">
         Your constantly being distracted
       </h2>
       <p className="text-gray-300 text-base md:text-lg text-center mb-10 max-w-lg">
